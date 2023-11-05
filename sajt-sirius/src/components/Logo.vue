@@ -9,5 +9,7 @@
   
 
 <style scoped>
-
+img{
+  width: 411px;
+}
 </style>

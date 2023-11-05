@@ -16,6 +16,9 @@
 
 <style lang="scss">
 form{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 1060px;
   background-color: #f8f8f8;
 
   border-radius: 10px;
