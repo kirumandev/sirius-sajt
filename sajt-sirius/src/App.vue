@@ -1,30 +1,25 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Logo from './components/Logo.vue'
+import Search from './components/Search.vue'
+import More from './components/More.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <Logo/>
+      <Search/>
+      <More/>
     </div>
-  </header>
 
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.wrapper{
+display: flex;
+flex-direction: column;
 }
 
 @media (min-width: 1024px) {
